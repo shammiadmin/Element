@@ -1,0 +1,39 @@
+ 
+
+/************************Image Box *********/
+ 
+  .image-box {
+    padding: 0;
+    line-height: 21px;
+    border: 1px solid #f1f1f1;
+    border-radius: 0;
+    margin-bottom: 30px;
+
+    display: block;
+    font-size: 13px; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+     
+     
+}
+.image-box.left a img{
+    float: left;
+    width: 270px;
+    height: 190px
+}
+.image-box.right a img{
+    float: right;
+}
+
+.image-box .content {
+    padding: 30px;
+    color: #969595;
+    overflow: hidden;
+    height: 190px;
+}
+.image-box .content h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+    margin-top: 0;
+     
+}

@@ -1,0 +1,42 @@
+#Wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container{
+   padding:100px 0;
+
+}
+
+.background-color{
+    background:#f6f6f6;
+}
+
+.text-title {
+    font-size: 20px;
+    text-align:center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    color:#525252;
+
+}
+
+/*******************************Logo Carousel*****************/
+.owl-prev, .owl-next {
+  position:absolute;
+  top:40%;
+  padding:5px;
+  margin:0;
+  z-index:100;
+  font-size:3rem;
+  cursor:pointer;
+  color:#555;
+}
+.owl-prev {
+  left:-30px;
+}
+.owl-next {
+  right:-30px;
+}
+
