@@ -1,0 +1,136 @@
+#Wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container{
+   padding: 50px 0;
+
+}
+.with-background{
+    background:#f6f6f6;
+}
+
+.text-title {
+    font-size: 20px;
+    text-align:center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    color:#525252;
+
+}
+
+
+/*************************Counter***********/
+.counter-area{
+    text-align: center; 
+    padding: 10px;
+}
+.counter-area .icon {
+    font-weight: normal;
+    line-height:26px;
+    margin-top:15px;
+}
+ 
+.counter-area .icon i{
+    color:#929191;
+    font-size: 45px;
+}
+.counter-area .content {
+    display: inline-block;
+    margin: 10px 15px;
+    text-align: center;
+}
+.counter-area .timer { 
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 0px 0 12px;
+    color:#000;
+     
+
+}
+.counter-area .title {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+/*************************Icon Left Counter***********/
+.left{
+    text-align: center;
+}
+.left .icon {
+    float:left;
+    left: 20px;
+    position: relative;    
+}
+
+/*************************Icon Top Counter***********/
+.top{
+    text-align:center;
+}
+.counter-area.top .icon {
+    font-weight: normal;
+    float: none;
+    text-align: center;
+}
+
+/************************* Without Icon Counter***********/
+
+.counter-area.withoutout-icon .icon{
+    display: none !important;
+}
+.counter-area.withoutout-icon .timer{
+    color:#76e9f4;
+}
+
+/*************************Counter Box***********/
+.box{
+    text-align:center;
+}
+.box .icon i{
+    color: #fff;
+}
+.box {
+    display: table;
+    position: relative;
+    top: 0;
+    background-color: var(--color);
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    
+}
+.box .timer{
+    color: #fff;
+}
+.box:hover {
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+    top: -4px;
+}
+.box .title {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 15px;
+    opacity: 0.7;
+    color:#fff;
+}
+
+ 
+
+/*************************Counter***********/
+.only-counter{
+    text-align:center;
+}
+.only-counter .timer {
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0;
+    color:#76e9f4;
+
+}
+
