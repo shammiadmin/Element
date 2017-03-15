@@ -8,13 +8,14 @@
     border: 1px solid #f1f1f1;
     border-radius: 0;
     margin-bottom: 30px;
-
     display: block;
     font-size: 13px; 
     background-color: #fff;
-    border: 1px solid #ddd;
-     
-     
+    border: 1px solid #ddd;   
+}
+
+.image-box.left{
+    float: none !important;
 }
 .image-box.left a img{
     float: left;
@@ -31,9 +32,17 @@
     overflow: hidden;
     height: 190px;
 }
+.image-box .content p{
+    font-size: 13px;
+}
 .image-box .content h3 {
     font-size: 15px;
     margin-bottom: 6px;
     margin-top: 0;
+    line-height: 36px;
+    font-weight: bold;
      
+}
+.image-box .content h3:hover{
+    color: #31aae2;
 }

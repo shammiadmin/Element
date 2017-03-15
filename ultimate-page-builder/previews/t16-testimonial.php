@@ -10,7 +10,7 @@
  
     <div :class="['owl-carousel','owl-theme', attributes.design]">
         
-            <div class="item" v-for="(content, index) in contents" v-if="isElementRegistered(content.tag)" :class="{ active: content.attributes.active, 't16-testimonial-item': true }" >
+            <div class="item" v-for="(content, index) in contents">
                 <div class="block">
                     <div class="quote">
                         <p v-html="content.contents"> </p>

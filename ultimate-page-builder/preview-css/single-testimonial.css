@@ -41,6 +41,7 @@
 }
 .testimonial .quote p{
     margin-bottom: 10px;
+    font-size: 13px;
 }
 .testimonial .info:before {
     content: "–";

@@ -10,7 +10,7 @@
    <div>
  
 
-    <div :class="['title', attributes.align, attributes['design-align'],attributes.design]" :style="{'--color':attributes.color}">
+    <div :class="['title', attributes.align, attributes['design-align'],attributes.design]" :style="{'--color':attributes.textcolor}">
        
     <h1 v-if="attributes.size=='h1'"  v-text="title" :style="{'--textcolor':attributes.textcolor}"></h1>
     <span v-if="attributes.size=='h1'" :class="['icon']" ><i :class="attributes.icon"></i></span> 

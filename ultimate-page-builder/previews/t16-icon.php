@@ -18,8 +18,8 @@
     <div class="content-box">
         <h3 class="title" v-text="title"></h3>
         <div class="description" v-html="contents"></div> 
-        <a  v-if="attributes.link" v-bind:href="attributes.url" v-if="attributes.button" :class="['button', attributes.size, {'button-curved': attributes.curved}]" 
-        v-text="attributes['button-text']" :style="{'--color':attributes.color}"   ></a>
+        <a v-if="attributes.link" v-bind:href="attributes.url" v-if="attributes.button" :class="['button', attributes.size, {'button-curved': attributes.curved}]" 
+        v-text="attributes['button-text']" :style="{'--color':attributes.color}" ></a>
 
     </div>
  </div>

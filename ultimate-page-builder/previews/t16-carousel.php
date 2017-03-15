@@ -8,7 +8,7 @@
     
       
 <div>
-	<div :class="['owl-carousel','owl-theme', attributes.design]" >
+	<div :class="['owl-carousel','owl-theme', 'logocarousel']" >
 		<div class="item" v-for="(content, index) in contents">
 			<img :src="content.attributes.logoimage" alt="Clients Logo" v-if="isElementRegistered(content.tag)" :class="{ active: content.attributes.active, 'upb-tab-content': true }">
 		</div>

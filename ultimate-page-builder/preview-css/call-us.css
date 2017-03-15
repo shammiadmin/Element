@@ -1,14 +1,4 @@
-#Wrapper {
-    margin: 0 auto;
-    overflow: hidden;
-}
-.container{
-   padding:50px 0;
-}
-.container-fluid{
-    width: 100%;
-    padding: 50px 0 !important;
-}
+ 
 
 .title {
     font-size: 20px;
@@ -18,6 +8,8 @@
     line-height: 35px;
     margin-bottom: 25px;
     color:#1abc9c;
+    padding: 0;
+    background: none !important;
 
 }
 
@@ -27,11 +19,14 @@
     border-radius: 3px;
     padding: 30px;
 }
-.call-us.left .content{
-    width: 65%;
+.call-us.left{
+    float: none !important;
 }
-.call-us.right .content{
-    width: 65%;
+.call-us.left .description{
+    width: 70%;
+}
+.call-us.right .description{
+    width: 70%;
     float: right;
 }
 .call-us .content span{
@@ -100,8 +95,10 @@
  
 /************************Call US Border Right *********/
 .call-us.right{
-    text-align:right;
+     
     overflow: hidden;
+    margin: 0;
+    float: none !important;
 }
 .call-us.right a.button {    
     left: 30px !important;
@@ -175,7 +172,6 @@
 
 .button {
     display: inline-block;
-    
     outline: 0;
     white-space: nowrap;
     margin: 5px 0;
@@ -189,10 +185,8 @@
     border: none;
     text-shadow: 1px 1px 1px rgba(0,0,0,.2);
     position:relative;
-    padding:7px 25px;
+    padding:7px 25px !important;
     border-radius: 3px;
-     
-     
     border:2px solid #fff;
     transition: all 0.4s ease 0s;
     font-weight:bold;
@@ -204,29 +198,22 @@
 }
 
 .button.button-curved {
-    border-radius: 50px;
-    
+    border-radius: 8px;
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
-
     transition: all 0.4s ease 0s;
 }
- 
 .button.iconic {
     border-radius: 3px;
 }
 .button.iconic:hover {
     opacity: 1;
 }
-
-
 .button {
     color: #fff;
     background-color: var(--color);
 }
-
-
 .button:hover {
     text-shadow: 1px 1px 1px rgba(0,0,0,.2);
     text-decoration:none;
@@ -237,29 +224,29 @@
 
 /*****************************Mini 3D Buttons*****************/
 .button.button-mini {
-    padding: 0 14px;
+    padding: 0 14px !important;
     font-size: 11px;
     height: 35px;
     line-height: 32px;
 }
 /*****************************Small 3D Buttons *****************/
 .button.button-small {
-    padding: 0 17px;
+    padding: 0 17px !important;
     font-size: 12px;
     height: 35px;
     line-height: 32px;
 }
 /*****************************Large 3D Buttons*****************/
 .button.button-large {
-    padding: 0 26px;
+    padding: 0 26px !important;
     font-size: 16px;
     height: 46px;
     line-height: 46px;
 }
 /*****************************Extra Large 3D Buttons*****************/
 .button.button-xlarge {
-     padding: 0 32px;
-     font-size: 18px;
+     padding: 0 32px !important;
+     font-size: 20px;
      letter-spacing: 2px;
      height: 52px;
      line-height: 52px;

@@ -13,7 +13,7 @@
     <div :class="['team']">
          <img v-bind:src="attributes.image" class="img-responsive" alt="Image"> 
         <div class="caption">
-            <h3 v-text="title">Reena Scot -</h3> <small v-text="attributes['designation']"></small>
+            <h3 v-text="title"></h3> <small v-text="attributes['designation']"></small>
         </div>
     </div>
 

@@ -37,6 +37,7 @@ h5, h6 {
 
 .title{
     margin-bottom: 30px;
+     
     background: none !important;
 
 }
@@ -45,7 +46,6 @@ h5, h6 {
     display: inline-block;
     color: var(--textcolor);
     margin-bottom: 0;
-    padding: 0 !important;
 }
 .border-inline h1,.border-inline h2,.border-inline h3,.border-inline h4,.border-inline h5,.border-inline h6,
 .border-bottom h1,.border-bottom h2,.border-bottom h3,.border-bottom h4,.border-bottom h5,.border-bottom h6
@@ -55,7 +55,7 @@ h5, h6 {
 .text-center{
     text-align: center;
 }
-.text-center h1,.text-center h2,.text-center h3,.text-center h4,.text-center h5,.text-center h6 {
+.title.text-center h1,.title.text-center h2,.title.text-center h3,.title.text-center h4,.title.text-center h5,.title.text-center h6 {
     padding: 0 15px !important;
 }
 .text-left{
@@ -101,7 +101,7 @@ h5, h6 {
 
 /********************************Border Block**********/
 
-.title.border-left-block {
+.border-left-block {
     padding: 2px 0 3px 20px;
     border-left: 7px solid ;
     margin-bottom: 30px;

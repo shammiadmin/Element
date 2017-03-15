@@ -5,20 +5,14 @@
     <upb-preview-mini-toolbar :parent="parent" :model="model"></upb-preview-mini-toolbar>
 
     <!-- {{ attributes }} {{ contents }}-->
-    <pre>{{backgroundVariables}}</pre>
-   <div>
  
-
-    <div :class="['call-us', attributes.align]" :style="backgroundVariables">
+     
+    <div :class="['call-us', attributes.align,attributes['background-type']=='gradient'?'gradient':'']" >
         <div class="title" v-text="title"></div>
-        <div v-html="contents"> </div>
+        <div class="description" v-html="contents"> </div>
             <a v-bind:href="attributes.url" :class="['button', attributes.size, {'button-curved' : attributes.curved}]" v-text="attributes['button-text']" :style="{'--color':attributes.color}"> </a>
         
-    </div>
-
-
-</div>
-
+	</div>
 </div>
 
 

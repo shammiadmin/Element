@@ -5,9 +5,10 @@
     <upb-preview-mini-toolbar :parent="parent" :model="model"></upb-preview-mini-toolbar>
 
     <!-- {{ attributes }} {{ contents }}-->
-   <div>
+<div>
  
- <a v-bind:href="attributes.url" :class = "['button', attributes.size,{'icon-reveal':attributes.reveal} , attributes.effect,{'button-curved':attributes.curved}]" :style="{'--color':attributes.color}" >
+
+<a v-bind:href="attributes.url"  target="_blank" :class = "['button', attributes.size,{'icon-reveal':attributes.reveal} , attributes.effect,{'button-curved':attributes.curved}]" :style="{'--color':attributes.color}" >
      <i v-if="attributes['show-icon']" :class="attributes.icon"></i> 
         <span v-text="title"> </span>      
 </a>
